@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Warriors/</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </head>
+  <style>
+    .hed{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: larger;
+      padding-left: 10%;
+    }
+  </style>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home page</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+    </head>
+    <style>
+      .hed{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: larger;
+        padding-left: 10%;
+      }
+    </style>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><p class="hed"><b>Eco Warriors</b></p></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <style>
+          .navb {
+            color: black;
+          }
+    
+          .fr {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            padding-left: 40%;
+          }
+    
+          .fr:hover {
+            color: yellow;
+            font-size: x-large;
+          }
+    
+          /* Initially hide the navbar */
+          @media (max-width: 768px) {
+            .navbar-collapse {
+              display: none;
+            }
+          }
+    
+          /* Style for the small image */
+          .navbar-img {
+            height: 30px; /* Set the height as needed */
+            margin-top: 7px; /* Adjust the margin as needed */
+          }
+        </style>
+    
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+            var navbarLinks = document.querySelectorAll('.nav-link');
+            var navbarToggleButton = document.querySelector('.navbar-toggler');
+    
+            navbarToggleButton.addEventListener('click', function () {
+              // Toggle the visibility of the navbar on small screens
+              if (window.innerWidth <= 768) {
+                navbarCollapse.style.display = (navbarCollapse.style.display === 'none' || navbarCollapse.style.display === '') ? 'block' : 'none';
+              }
+            });
+    
+            // Hide navbar after clicking on any nav item
+            navbarLinks.forEach(function (link) {
+              link.addEventListener('click', function () {
+                if (window.innerWidth <= 768) {
+                  navbarCollapse.style.display = 'none';
+                }
+              });
+            });
+          });
+        </script>
+    
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active navb" aria-current="page" href="index.html"><p class="fr">Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navb" href="#about"> <p class="fr">About</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navb" href="#projects"> <p class="fr">Projects</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navb" href="#contacts"> <p class="fr">Donate</p></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light px-5 fr" href="" data-bs-toggle="dropdown" aria-expanded="false">Our Services</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#objectives">Objectives</a></li>
+                <li><a class="dropdown-item" href="#blogs">Blogs</a></li>
+                <li><a class="dropdown-item" href="#contacts">Contacts</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Replace the search form with a small image -->
+          <img src="logo.jpeg" alt="Small Image" class="navbar-img">
+        </div>
+      </div>
+    </nav>
+      
+  
+
+      <main style="padding-top: 40px;">
+            <div class="container-fluid mt-5">
+              <div id="carouselExample" class="carousel slide h-10" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="water.jpeg" style="height:350px;" class="d-block w-100" alt="First Slide">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="falls.jpg" style="height:350px;" class="d-block w-100" alt="Second Slide">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="mou.jpg" style="height:350px;" class="d-block w-100" alt="Third Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="mou.jpg" style="height:350px;" class="d-block w-100" alt="Third Slide">
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+      
+        <div class="container marketing">
+<hr class="featurette-divider">
+
+<div class=" container-fluid mt-5 row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading fw-normal lh-1">Mission <span class="text-body-secondary">Statement</span></h2>
+    <p class="lead">To inspire and mobilize communities towards sustainable living, conservation of natural 
+      	 resources, and combating climate change. Through education, advocacy, and direct action, 	
+         our goal is to protect and restore the environment for future generations, ensuring a thriving
+       	and harmonious coexistence between humanity and the planet.</p>
+  </div>
+  <div class="col-md-5">
+    <img src="hands.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Image 1">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading fw-normal lh-1">Vision<span class="text-body-secondary"> Statement.</span></h2>
+    <p class="lead">A world where nature and humanity coexist in perfect harmony, where clean air, 
+      water, and 	abundant biodiversity are cherished and preserved. We envision sustainable communities 	
+      thriving in balance with the environment, empowered by renewable resources and mindful 	consumption.
+       Through collective effort, we strive to leave a legacy of a healthy, 
+      vibrant 	planet for generations to come.</p>
+  </div>
+  <div class="col-md-5 order-md-1">
+    <img src="falls.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Image 2">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading fw-normal lh-1">Slogan<span class="text-body-secondary"></span></h2>
+    <p class="lead">Our slogan goes.....</p>
+  </div>
+</div>
+<hr class="featurette-divider">
+</div>
+
+<div class="container my-5" id="about" style="padding-top: 80px;">
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+      <h1 class="display-4 fw-bold lh-1 text-body-emphasis">About Us</h1>
+      
+        <p class="lead">Welcome to Eco Warriors, a beacon of hope and change founded by three visionary 
+          individuals in the dawn of 2024. Our shared dream led us to embark on a journey that intertwines
+           environmental conservation with the noble pursuit of alleviating poverty in local communities. 
+           At the heart of our organization lies a commitment to 
+          creating a world where the health of our planet and the well-being of its inhabitants coexist 
+          harmoniously..</p>
+
+         
+      
+    </div>
+    <div class="col-lg-4 offset-lg-1 p-2 overflow-hidden shadow-lg">
+      <p class="lead display-6">What Sets Us Apart</p>
+      <p class="lead">Community-Centric Programs: Our initiatives are designed with the community at the center.
+         We collaborate with local leaders, listen to the needs of the people, 
+        and co-create solutions that are sustainable, culturally sensitive, and tailored to each unique
+         community.</p>
+    </div>
+  </div>
+  <div class="row mx-auto my-5">
+    <div class="col-lg-4 text-center">
+        <img src="mar.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Image 1">
+        <h2 class="fw-normal">Water Engineer</h2>
+        <p>An adept communicator and strategist, Percy plays a pivotal role in connecting 
+          our environmental and social goals. By fostering partnerships, alliances, and collaborations,
+           they ensure that our efforts resonate globally and locally, 
+          amplifying our impact for a more sustainable and just world.</p>
+          <p><b>Percy Banks</b></p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 text-center">
+        <img src="mar2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Image 2">
+        <h2 class="fw-normal">C.E.O</h2>
+        <p>A nature enthusiast and advocate for sustainable living, Nouhman brings a wealth of 
+          knowledge and passion for preserving ecosystems. Their deep connection to the environment 
+          serves as the driving 
+          force behind our ecological initiatives, pushing the boundaries of what is possible for a healthier planet.</p>
+        <p><b>Nouhman. K</b></p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 text-center">
+        <img src="mar2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Image 3">
+        <h2 class="fw-normal">I.T Consultant</h2>
+        <p>A champion of social justice and equality, Marlon Pius believes in the transformative power of 
+          eradicating poverty to create thriving communities. With a background in community development, 
+          their commitment to uplifting the underprivileged echoes through our organization's core values.</p>
+          <p><b>Marlon Pius</b></p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+</div>
+
+
+      </main>
+
+      
+  <div class="b-example-divider"></div>
+
+  <div class="container my-5" >
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis text-success">Below are our core objectives; </h1>
+      </div>
+    </div>
+    <div class="container-fluid mt-5" id="objectives" style="padding-top: 50px;">
+      <div id="carouselExample" class="carousel slide h-10" data-bs-ride="carousel" >
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Reduce Carbon Emissions:</h1>
+                    <p class="lead">Implement measures to decrease greenhouse gas emissions by 
+                      a certain percentage within a specified time-frame.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Restore Natural Habitats: </h1>
+                    <p class="lead">Restore and conserve a specific number of acres or 
+                      hectares of critical habitats for native wildlife.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+      <h1 class="display-4 fw-bold lh-1 text-body-emphasis" >More Objectives..</h1>
+      <ol>
+        <li><p class="lead">Promote Renewable Energy Adoption: 
+          Increase the percentage of renewable energy sources in the local energy grid.</p></li>
+          <li><p class="lead">Water Quality Improvement: Achieve specific targets for 
+            improving the quality of local water bodies through pollution reduction measures.</p></li>
+          <li><p class="lead">Waste Reduction: Decrease the amount of waste generated by
+             a certain percentage through recycling and waste reduction programs.</p></li>
+          <li><p class="lead">Tree Planting and Reforestation: Plant a specific number
+             of trees or reforest a designated area to combat deforestation.</p></li>
+          <li><p class="lead">Community Workshops and Education: Conduct a series of 
+            educational workshops or seminars on topics like sustainable living, wildlife conservation, etc.</p></li>
+          <li><p class="lead">Advocate for Policy Change: Successfully lobby for the implementation or
+             modification of specific environmental policies at the local or national level.</p></li>
+          <li><p class="lead">Monitor and Report Progress: Regularly assess and report on the progress
+             of conservation efforts, including key metrics and achievements.</p></li>
+          <li><p class="lead">Partnership and Collaboration: Establish partnerships with a certain 
+            number of organizations, governmental agencies, or community groups to amplify the 
+            impact of conservation initiatives.</p></li>
+      </ol>
+    </div>
+    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <img class="rounded-lg-3" src="poverty1.jpg" alt="" width="720">
+    </div>
+  </div>
+  </div>
+
+  <style>
+    .rp{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: xx-large;
+      color: black;
+      font-weight: bolder;
+    }
+  </style>
+
+  <div class="container" id="projects" style="padding-top: 80px;">
+    <p class="rp">Running Projects</p>
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-4 ">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="clickable-div" onclick="navigateToPage()">
+                    <p class="pr">The green Oasis Project</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 ">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="clickable-div" onclick="navigateToPage3()">
+                    <p class="pr">TechAgri Empowerment Project</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="clickable-div" onclick="navigateToPage2()">
+                    <p class="pr">Digital Literacy Initiative</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <style>
+    .clickable-div {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+      cursor: pointer;
+      display: inline-block;
+      width: max-content;
+      border-radius: 50px;
+    }
+
+    .clickable-div:hover {
+      background-color: lightgreen;
+      color: #f0f0f0;
+    }
+    .pr{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: x-large;
+      font-weight: bolder;
+    }
+    iframe {
+      width: 100%;
+      height: 360px;
+    }
+  </style>
+
+
+<script>
+  function navigateToPage() {
+    window.location.href = 'projects.html';
+  }
+  function navigateToPage2() {
+    window.location.href = 'projects1.html';
+  }
+  function navigateToPage3() {
+    window.location.href = 'projects2.html';
+  }
+</script>
+
+<section class="container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=GbuJ9WVbh_4&t=5s" frameborder="0"
+    allowfullscreen></iframe>
+</section>
+
+
+  <div class="container-fluid" id="blogs" style="padding-top: 80px;">
+    <div class="row">
+      <div class="col-12 text-center bg-secondary text-light">
+        <h1 class="display-4"><b>Blogs</b></h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col-md-6 p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis">The Silent Crisis:</strong>
+                <h3 class="mb-0">Climate Change and Global Agriculture</h3>
+                <div class="mb-1 text-body-secondary">Dec 12</div>
+                <p class="card-text mb-auto">As sea levels continue to rise due to climate change, coastal communities are facing unprecedented challenges....</p>
+                <a href="blogs.html" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="blogs.html"/></svg>
+                </a>
+              </div>
+              <div class="col-md-6 col-auto d-flex align-items-center">
+                <img src="sea1.jpg" alt="Makerere Thumbnail" class="img-fluid">
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col-md-6 p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Voices of the Youth:</strong>
+                <h3 class="mb-0">Climate Activism in the Digital Age</h3>
+                <div class="mb-1 text-body-secondary">Dec 11</div>
+                <p class="mb-auto">Young activists around the world are leading the charge against climate change.</p>
+                <a href="blog2.html" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="col-md-6 col-auto d-flex align-items-center">
+                <img src="act.jpg" alt="Uganda Thumbnail" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col-md-6 p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis">The Silent Crisis:</strong>
+                <h3 class="mb-0">Climate Change and Global Agriculture</h3>
+                <div class="mb-1 text-body-secondary">Dec 12</div>
+                <p class="card-text mb-auto">As sea levels continue to rise due to climate change, coastal communities are facing unprecedented challenges....</p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="col-md-6 col-auto d-flex align-items-center">
+                <img src="sea1.jpg" alt="Makerere Thumbnail" class="img-fluid">
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col-md-6 p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Voices of the Youth:</strong>
+                <h3 class="mb-0">Climate Activism in the Digital Age</h3>
+                <div class="mb-1 text-body-secondary">Dec 11</div>
+                <p class="mb-auto">Young activists around the world are leading the charge against climate change.</p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="col-md-6 col-auto d-flex align-items-center">
+                <img src="act.jpg" alt="Uganda Thumbnail" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col-md-6 p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis">The Silent Crisis:</strong>
+                <h3 class="mb-0">Climate Change and Global Agriculture</h3>
+                <div class="mb-1 text-body-secondary">Dec 12</div>
+                <p class="card-text mb-auto">As sea levels continue to rise due to climate change, coastal communities are facing unprecedented challenges....</p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="col-md-6 col-auto d-flex align-items-center">
+                <img src="sea1.jpg" alt="Makerere Thumbnail" class="img-fluid">
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col-md-6 p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Voices of the Youth:</strong>
+                <h3 class="mb-0">Climate Activism in the Digital Age</h3>
+                <div class="mb-1 text-body-secondary">Dec 11</div>
+                <p class="mb-auto">Young activists around the world are leading the charge against climate change.</p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="col-md-6 col-auto d-flex align-items-center">
+                <img src="act.jpg" alt="Uganda Thumbnail" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="container-fluid px-5 bg-success text-light" id="contacts">
+        <footer class="py-5 w-100">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Eco warriors</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="index.html#objectives" class="nav-link p-0 text-body-secondary">Objectives</a></li>
+                <li class="nav-item mb-2"><a href="index.html#projects" class="nav-link p-0 text-body-secondary">Projects</a></li>
+                <li class="nav-item mb-2"><a href="index.html#about" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h6>Below are our Aims</h6>
+              <ul class="flex-column">
+                <li>Sustainable Ecosystems</li>
+                <li>Climate Resilience</li>
+                <li>Community Engagement</li>
+                <li>Environmental Education</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Donate to a project</h5>
+                <p>Support any project of your choice.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Donate</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Eco Warriors, Inc. All rights reserved.</p>
+            <div class="row text-light p-2">
+              <div class="col">
+              <a href="whatsapp://send?phone=+256750135338&text=Hello%20there" title="WhatsApp message to +256750135338">
+                  <p> <img style="width: 30px; height: 30px;" src="what.png" alt=""></p>
+              </a>
+            </div>
+            <div class="col">
+                <a a href="tel:+256750135338" title="Click to call +256750135338">
+                    <p><img style="width: 30px; height: 30px;" src="call.png" alt=""></p>
+                  </a>
+                  </div>
+              <div class="col">
+                <a href="mailto:ecowarriors256@gmail.com?subject=Hello&body=Message%20content" title="Email ecowarriors256@gmail.com">
+                  <p> <img style="width: 30px; height: 30px;" src="mail.png" alt=""></p>
+                </a>
+              </div> 
+              <div class="col">
+                <a href="https://twitter.com/Ecowarriors256" title="@eco_warriors256">
+                  <p><img style="width: 30px; height: 30px;" src="xlogo.jpg" alt=""></p>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://www.youtube.com/channel/UCg0nmeRdoF-8SpNccvDJWbA" title="Visit our channel at eco_warriors256">
+                  <p><img style="width: 30px; height: 30px;" src="you1.jpg" alt=""></p>
+                </a>
+              </div>
+              <div class="col">
+                <p><img style="width: 30px; height: 30px;" src="face.png" alt=""></p>
+            </div>
+          </div>
+          </div>
+        </footer>
+      </div>  
+
+      
+ 
+</body>
+</html>
